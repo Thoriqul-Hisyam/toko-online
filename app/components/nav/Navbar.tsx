@@ -6,8 +6,8 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'] })
 
 const Navbar = () => {
     return (
-        <div className="sticky top-0 w-full bg-slate-200 z-30 shadwo-sm">
-            <div className="py-4 border-b-[1px]">
+        <div className="sticky top-0 w-full bg-white/30 backdrop-blur-md z-30 shadwo-sm">
+            <div className="py-4 border-b-[0.5px] border-white/30">
                 <Container>
                     <div className="flex items-center justify-between gap-3 md-gap-0">
                         <Link className={`${roboto.className} font-bold text-xl`} href="/">
