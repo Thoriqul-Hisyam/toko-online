@@ -9,7 +9,7 @@ const HomeBanner = () => {
                     <p className="text-lg md:text-xl text-white mb-2">Enjoy discount on selected items</p>
                     <p className="text-yellow-400 text-2xl md:text-5xl font-bold">GET 70% OFF</p>
                 </div>
-                <div className="w-1/3 relative aspect-video">
+                <div className="w-1/2 md:w-1/3 relative aspect-video">
                     <Image
                         src='/banner-home.webp'
                         fill
